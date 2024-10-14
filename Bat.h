@@ -5,16 +5,20 @@ using namespace sf;
 class Bat 
 {
     private: 
-    // Length of the pong bat
-    int m_Length = 100;
-    // Height of the pong bat 
-    int m_Height = 10;
-    // Location on x axis
-    int m_XPosition;
-    // Location on y axis
-    int m_YPosition;
+    Vector2f m_Position;
+    // Rectangle shaped object
+    RectangleShape m_Shape;
+    float m_Speed = 1000.0f;
+    bool m_MovingRight = false;
+    bool m_MovingLeft = false;
 
     public: 
-    void moveRight();
+    Bat(float startX, float startY);
+    FloatRect getPosition();
+    RectangleShape getShape();
     void moveLeft();
+    void moveRight();
+    void stopLeft();
+    void stopRight();
+    void update(Time dt);
 };
