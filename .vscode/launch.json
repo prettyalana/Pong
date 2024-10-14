@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch App",
+            "type": "cppdbg",
+            "request": "launch",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/",
+            "environment": [],
+            "program": "/Users/alana/alana-fullstackdev/CPP/Pong/main",
+            "MIMode": "lldb",
+            "targetArchitecture": "arm64",
+            "externalConsole": false
+        }
+    ]
+}
