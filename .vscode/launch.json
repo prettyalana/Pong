@@ -8,7 +8,7 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/",
             "environment": [],
-            "program": "/Users/alana/alana-fullstackdev/CPP/Pong/main",
+            "program": "/Users/alana/alana-fullstackdev/Pong/main",
             "MIMode": "lldb",
             "targetArchitecture": "arm64",
             "externalConsole": false

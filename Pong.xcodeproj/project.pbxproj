@@ -33,18 +33,18 @@
 		E76627652CBDDC7C00921899 /* SFMLConfigVersion.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = SFMLConfigVersion.cmake; sourceTree = "<group>"; };
 		E76627662CBDDC7C00921899 /* SFMLSharedTargets.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = SFMLSharedTargets.cmake; sourceTree = "<group>"; };
 		E76627672CBDDC7C00921899 /* SFMLSharedTargets-release.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SFMLSharedTargets-release.cmake"; sourceTree = "<group>"; };
-		E766276A2CBDDC7C00921899 /* libsfml-graphics.2.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.6.1.dylib"; path = "../../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/libsfml-graphics.2.6.1.dylib"; sourceTree = "<group>"; };
-		E766276B2CBDDC7C00921899 /* libsfml-window.2.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.6.1.dylib"; path = "../../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/libsfml-window.2.6.1.dylib"; sourceTree = "<group>"; };
-		E766276C2CBDDC7C00921899 /* libsfml-system.2.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.6.1.dylib"; path = "../../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/libsfml-system.2.6.1.dylib"; sourceTree = "<group>"; };
+		E766276A2CBDDC7C00921899 /* libsfml-graphics.2.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.6.1.dylib"; path = "../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/libsfml-graphics.2.6.1.dylib"; sourceTree = "<group>"; };
+		E766276B2CBDDC7C00921899 /* libsfml-window.2.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.6.1.dylib"; path = "../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/libsfml-window.2.6.1.dylib"; sourceTree = "<group>"; };
+		E766276C2CBDDC7C00921899 /* libsfml-system.2.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.6.1.dylib"; path = "../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/libsfml-system.2.6.1.dylib"; sourceTree = "<group>"; };
 		E766276D2CBDDC7C00921899 /* sfml-all.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sfml-all.pc"; sourceTree = "<group>"; };
 		E766276E2CBDDC7C00921899 /* sfml-audio.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sfml-audio.pc"; sourceTree = "<group>"; };
 		E766276F2CBDDC7C00921899 /* sfml-graphics.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sfml-graphics.pc"; sourceTree = "<group>"; };
 		E76627702CBDDC7C00921899 /* sfml-network.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sfml-network.pc"; sourceTree = "<group>"; };
 		E76627712CBDDC7C00921899 /* sfml-system.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sfml-system.pc"; sourceTree = "<group>"; };
 		E76627722CBDDC7C00921899 /* sfml-window.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sfml-window.pc"; sourceTree = "<group>"; };
-		E76627742CBDDC7C00921899 /* libsfml-audio.2.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.6.1.dylib"; path = "../../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/libsfml-audio.2.6.1.dylib"; sourceTree = "<group>"; };
-		E76627752CBDDC7C00921899 /* libsfml-network.2.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.6.1.dylib"; path = "../../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/libsfml-network.2.6.1.dylib"; sourceTree = "<group>"; };
-		E76627852CBDDCC300921899 /* Pong */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pong; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76627742CBDDC7C00921899 /* libsfml-audio.2.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.6.1.dylib"; path = "../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/libsfml-audio.2.6.1.dylib"; sourceTree = "<group>"; };
+		E76627752CBDDC7C00921899 /* libsfml-network.2.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.6.1.dylib"; path = "../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/libsfml-network.2.6.1.dylib"; sourceTree = "<group>"; };
+		E76627852CBDDCC300921899 /* Pong */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Pong; path = "/Users/alana/alana-fullstackdev/Pong/build/Debug/Pong"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -111,7 +111,7 @@
 				E76627682CBDDC7C00921899 /* SFML */,
 			);
 			name = cmake;
-			path = ../../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/cmake;
+			path = ../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/cmake;
 			sourceTree = "<group>";
 		};
 		E76627732CBDDC7C00921899 /* pkgconfig */ = {
@@ -125,16 +125,15 @@
 				E76627722CBDDC7C00921899 /* sfml-window.pc */,
 			);
 			name = pkgconfig;
-			path = ../../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/pkgconfig;
+			path = ../../../../opt/homebrew/Cellar/sfml/2.6.1/lib/pkgconfig;
 			sourceTree = "<group>";
 		};
 		E776E6BF2CBD92C40020992D = {
 			isa = PBXGroup;
 			children = (
-				E766275C2CBDDA6200921899 /* fonts */,
 				E776E6CA2CBD92C40020992D /* Pong */,
 				E76627622CBDDB4500921899 /* Frameworks */,
-				E76627852CBDDCC300921899 /* Pong */,
+				E766275C2CBDDA6200921899 /* fonts */,
 			);
 			sourceTree = "<group>";
 		};

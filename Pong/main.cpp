@@ -28,7 +28,7 @@ int main()
 
     // Retro style font
     Font font;
-    font.loadFromFile("/Users/alana/alana-fullstackdev/CPP/Pong/fonts/DS-DIGI.TTF");
+    font.loadFromFile("/Users/alana/alana-fullstackdev/Pong/fonts/DS-DIGI.TTF");
 
     // Set the font to the Text object hud
     hud.setFont(font);
