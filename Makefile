@@ -1,11 +1,8 @@
 # Replace this with the path you get from `brew info sfml`
 SFML_PATH = /opt/homebrew/Cellar/sfml/2.6.1
 
-# Source file
-# cppFileNames = Pong/main.cpp
-
 # Replace "src" with the name of the folder where all your cpp code is
-cppFileNames := $(shell find -type f -name "*.cpp")
+cppFileNames := $(shell find . -type f -name "*.cpp")
 
 # Target executable
 TARGET = bin/app
