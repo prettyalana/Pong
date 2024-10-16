@@ -6,6 +6,7 @@
 //
 
 #include "Bat.h"
+#include "Ball.h"
 #include <sstream>
 #include <cstdlib>
 #include <SFML/Graphics.hpp>
@@ -20,8 +21,10 @@ int main()
     int lives = 3;
 
     // Create a bat at the bottom center of the screen
-    Bat bat(1440 / 2, 900 - 10);
+    Bat bat(1440 / 2, 900 - 20);
+
     // Ball will be added later
+    Ball ball(1440 / 2, 0);
 
     // Create a text object called hud
     Text hud;
@@ -82,6 +85,7 @@ int main()
         // Update the delta time
         Time dt = clock.restart();
         bat.update(dt);
+        ball.update(dt);
 
         // Update the HUD text
         std::stringstream ss;
@@ -92,6 +96,7 @@ int main()
         window.clear();
         window.draw(hud);
         window.draw(bat.getShape());
+        window.draw(ball.getShape());
         window.display();
     }
 

@@ -13,6 +13,7 @@
                 "-L/opt/homebrew/lib",      
                 "${workspaceFolder}/Pong/main.cpp",
                 "${workspaceFolder}/Pong/Bat.cpp", 
+                "${workspaceFolder}/Pong/Ball.cpp", 
                 "-o",
                 "${workspaceFolder}/main", 
                 "-lsfml-graphics",
