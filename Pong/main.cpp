@@ -21,7 +21,7 @@ int main()
     int lives = 3;
 
     // Create a bat at the bottom center of the screen
-    Bat bat(1440 / 2, 900 - 250);
+    Bat bat(1440 / 2, 900 - 150);
 
     // Ball will be added later
     Ball ball(1440 / 2, 0);
@@ -91,6 +91,47 @@ int main()
         std::stringstream ss;
         ss << "Score:" << score << " Lives:" << lives;
         hud.setString(ss.str());
+
+        // Handle the ball hitting the bottom
+        if (ball.getPosition().top > window.getSize().y)
+        {
+            // reverse the ball direction
+            ball.reboundBottom();
+
+            // Remove a life
+            lives--;
+
+            // Check for 0 lives 
+            if (lives < 1){
+                // reset the score
+                score = 0;
+                // reset the lives 
+                lives = 3;
+            }
+        }
+
+        // Handle ball hitting top
+        if (ball.getPosition().top < 0)
+        {
+            ball.reboundBatOrTop();
+
+            // Add a point to the players score
+            score++;
+        }
+
+        // Handle ball hitting sides 
+        if (ball.getPosition().left < 0 || 
+            ball.getPosition().left + ball.getPosition().width> window.getSize().x)
+        {
+            ball.reboundSides();
+        }
+
+        // has the ball hit the bat?
+        if(ball.getPosition().intersects(bat.getPosition()))
+        {
+            // Hit detected so reverse the ball and score a point
+            ball.reboundBatOrTop();
+        }
 
         // Draw the bat, the ball, and the HUD
         window.clear();

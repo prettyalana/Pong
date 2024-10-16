@@ -8,7 +8,7 @@ class Bat
     Vector2f m_Position;
     // Rectangle shaped object
     RectangleShape m_Shape;
-    float m_Speed = 1000.0f;
+    float m_Speed = 500.0f;
     bool m_MovingRight = false;
     bool m_MovingLeft = false;
 
