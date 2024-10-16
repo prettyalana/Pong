@@ -21,7 +21,7 @@ int main()
     int lives = 3;
 
     // Create a bat at the bottom center of the screen
-    Bat bat(1440 / 2, 900 - 200);
+    Bat bat(1440 / 2, 900 - 250);
 
     // Ball will be added later
     Ball ball(1440 / 2, 0);

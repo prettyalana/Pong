@@ -35,9 +35,17 @@ void Bat::update(Time dt)
 {
     if (m_MovingLeft) {
         m_Position.x -= m_Speed * dt.asSeconds();
+
+        if (m_Position.x < 0) {
+            m_Position.x = 0;
+        }
     }
     if (m_MovingRight) {
         m_Position.x += m_Speed * dt.asSeconds();
+
+        if (m_Position.x + m_Shape.getSize().x > 1440) {
+            m_Position.x = 1440 - m_Shape.getSize().x;
+        }
     }
     m_Shape.setPosition(m_Position);
 }
