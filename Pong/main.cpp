@@ -111,12 +111,18 @@ int main()
         }
 
         // Handle ball hitting top
-        if (ball.getPosition().top < 0)
+        bool isTop = false;
+        if (ball.getPosition().top < 0 && !isTop)
         {
             ball.reboundBatOrTop();
 
             // Add a point to the players score
             score++;
+            isTop = true;
+        }
+        else 
+        {
+            isTop = false;
         }
 
         // Handle ball hitting sides 
