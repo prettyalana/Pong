@@ -59,12 +59,12 @@ int main()
         }
 
         // Handle the player quitting
-        if (event.type == sf::Event::KeyReleased && event.key.code == sf::Keyboard::Escape)
+        if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Escape)
         {
             window.close();
         }
 
-        if (event.type == sf::Event::KeyReleased && event.key.code == sf::Keyboard::Left)
+        if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Left)
         {
             bat.moveLeft();
         }
@@ -72,7 +72,7 @@ int main()
         {
             bat.stopLeft();
         }
-        if (event.type == sf::Event::KeyReleased && event.key.code == sf::Keyboard::Right)
+        if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Right)
         {
             bat.moveRight();
         }
